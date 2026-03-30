@@ -1,0 +1,26 @@
+body{
+    margin :0;
+    padding: 0;
+    display: grid;
+    grid-template-columns:15vw 70vw 15 vw;
+    grid-template-rows:30vh 15vh auto;
+}
+#header{
+    grid-column:1/4;
+    grid-row: 1/2;
+    background-color: aqua;
+    text-align:center;
+    
+}
+#nav{
+     grid-column:1/4;
+    grid-row: 2/3;
+    background-color:antiquewhite;
+    text-align: center;
+    padding-top: 10px;
+}
+#main{
+    grid-column: 2/3;
+    grid-row: 3/4;
+
+}
