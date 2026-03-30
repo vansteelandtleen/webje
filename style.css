@@ -24,3 +24,13 @@ body{
     grid-row: 3/4;
 
 }
+#art1{
+    margin-left : 10px;
+    margin-right: 10px;
+    padding:5px;
+    background-color: beige;
+
+}
+#art1 p{
+    font-size: 2rem;
+}
